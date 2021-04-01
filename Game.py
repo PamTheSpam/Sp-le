@@ -12,6 +12,12 @@ reader = csv.reader(vārdi)
 allRows = [row for row in reader]
 
 Vārds = input("Tavs vārds: ")
+print('''Noteikumi:
+1. Atrodi burtu jūklī 10 Liepājas objektus. Ievadi tā pirmā un pedējā burta adresi (piemēram G2G7) 
+2. Spēles beigās no atrastajiem apskates objekta sākumburtiem izveidot vienu Liepājas objekta nosaukumu. Vārda sākumburts skaitās tikai pirmā vārda sākumburts. (piemēram "Jūrmalas parks" burts:J)  
+3.Vārda veidošanā jāizmanto visu atrasto objektu pirmie sākumburti. Un jānorāda to adrese. (piemēram A5)
+4. Kad esi atradis visas sākumburta adreses izveido apskates objekta nosaukumu un ieraksti tam paredzētajā vietā (ar  garumzīmēm.)
+5. Kad sasniedz burtu "Ā" tad izvēlies sākumburtu "A" un tev pajautās vai vēlies ielikt mīkstinājuma zīmi vai nē.''')
 
 table = Texttable()
 list1 = [1, "Z", "A", "M", "A", "T", "N", "I", "E", "K", "U", "-", "N", "A", "M", "S", "T", "-"]
